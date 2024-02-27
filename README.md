@@ -7,3 +7,5 @@ Tendra una base de datos que almacenara mis proyectos , datos mios , login (para
 Se Utilizara para el frontal React con Redux , Scss , axios , bootstrap , react-bootstrap , dayjs , navigate ,react-datepciker , react-dom .
 
 Espero que os gusté mi ideea
+
+Sobre todo quiero conseguir que sea una pagina web responsive con un diseño simple e intuitivo para el usuario y para los IT Recruiments.
