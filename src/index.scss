@@ -1,3 +1,5 @@
+/*bootstrap*/
+@use '../node_modules/bootstrap/scss/bootstrap.scss';
 
 /*abstracts*/
 @use './scss/abstracts/variables';
@@ -5,4 +7,5 @@
 
 /*base*/
 @use './scss/base/base';
-@use './scss/base/resets'
+@use './scss/base/resets';
+
