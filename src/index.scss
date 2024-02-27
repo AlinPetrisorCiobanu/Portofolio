@@ -1,7 +1,4 @@
 
-/*bootstrap*/
-@use '../node_modules/bootstrap/scss/bootstrap.scss';
-
 /*abstracts*/
 @use './Scss/abstracts/variables';
 @use './Scss/abstracts/mixins';
@@ -9,4 +6,3 @@
 /*base*/
 @use './Scss/base/base';
 @use './Scss/base/resets';
-
