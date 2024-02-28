@@ -2,13 +2,24 @@
     background-color: var(--background-color-nav);
 }
 .design_dropDownButton{
+    
     button{
         background-color: var(--background-color-button-nav);
+        width: 10rem;
+        @media (max-width:768px){
+            width: 6rem;       
+        }
     }
     div{
-        background-color: var(--background-color-dropdown-nav);
+        text-align: center;
+        background-color: var(--background-color-dropdown-nav); 
+        min-width: auto;
+        width: 10rem;
+        @media (max-width:768px){
+            width: 6rem;       
+        }
     }
-    div:hover a{
+    a:hover{
         background-color: var(--background-color-dropdown-nav);
     }
 }

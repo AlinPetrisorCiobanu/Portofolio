@@ -3,38 +3,50 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import DropdownButton from "react-bootstrap/DropdownButton";
 import Dropdown from "react-bootstrap/Dropdown";
-import "./Nav_Bar.scss"
+import {Link} from 'react-router-dom';
+import "./Nav_Bar.scss";
 
 export const NavBar = () => {
-    let nameProfile = "nombre"
+  let token;
   return (
     <>
-      <Container
-        fluid
-        className="text-center design_navbar"
-      >
+      <Container fluid className="text-center design_navbar">
         <Row className="d-flex justify-content-center align-items-center">
           <Col>
-            <h1>IMG</h1>
+            <h1 className="color-black"><Link to="/">Home</Link></h1>
           </Col>
           <Col>
             <Row>
               <Col>
-                <h1>2</h1>
-              </Col>
-              <Col>
-                <h1>3</h1>
-              </Col>
-              <Col>
-                <h1>4</h1>
+                <h1></h1>
               </Col>
             </Row>
           </Col>
           <Col>
-            <DropdownButton title={nameProfile} id="bg-nested-dropdown" className="design_dropDownButton">
-              <Dropdown.Item eventKey="1">Profile</Dropdown.Item>
-              <hr />
-              <Dropdown.Item eventKey="2">Log Out</Dropdown.Item>
+            <DropdownButton
+              title="menu"
+              id="bg-nested-dropdown"
+              className="design_dropDownButton"
+            >
+              {token ? (
+                <>
+                  <Link to="/Profile">Profil</Link>
+                  <hr />
+                  <Link to="/Projects">Proyectos</Link>
+                  <hr />
+                  <Dropdown.Item eventKey="3">LogOut</Dropdown.Item>
+                </>
+              ) : (
+                <>
+                  <Link to="/Profile">Profil</Link>
+                  <hr />
+                  <Link to="/Projects">Proyectos</Link>
+                  <hr />
+                  <Link to="/Contact">Contacto</Link>
+                  <hr />
+                  <Link to="/Login">Login</Link>
+                </>
+              )}
             </DropdownButton>
           </Col>
         </Row>
