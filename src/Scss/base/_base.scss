@@ -10,7 +10,7 @@ body {
 #root {
   #NavBar {
     width: 100vw;
-    height: 10vh;
+    height: 6vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,8 +29,8 @@ body {
   }
   #Footer {
     width: 100vw;
-    height: 10vh;
-    background-color: rgb(75, 37, 37);
+    height: 20vh;
+    background-color: rgb(120, 136, 255);
     overflow: hidden;
     z-index: 10;
     margin: 0px;
