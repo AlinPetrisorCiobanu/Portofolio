@@ -9,10 +9,13 @@ body {
 }
 #root {
   #NavBar {
+    width: 100vw;
     height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0px;
+    padding: 0px;
   }
   #Main {
     margin: 0px;
@@ -21,12 +24,16 @@ body {
     height: 80vh;
     overflow: scroll;
     background-color: antiquewhite;
+    margin: 0px;
+    padding: 0px;
   }
   #Footer {
     width: 100vw;
     height: 10vh;
-    background-color: red;
+    background-color: rgb(75, 37, 37);
     overflow: hidden;
     z-index: 10;
+    margin: 0px;
+    padding: 0px;
   }
 }
