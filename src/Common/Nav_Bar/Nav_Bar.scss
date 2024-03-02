@@ -1,11 +1,18 @@
 .design_navbar{
     background-color: var(--background-color-nav);
+    .row_navbar{
+        width: 100vw;
+    }
+    a{
+        color: var(--nav-bar-foont-color);
+    }
 }
 .design_dropDownButton{
     
     button{
         background-color: var(--background-color-button-nav);
         width: 10rem;
+        color: var(--nav-bar-foont-color);
         @media (max-width:768px){
             width: 6rem;       
         }

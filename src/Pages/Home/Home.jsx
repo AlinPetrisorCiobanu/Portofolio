@@ -2,13 +2,14 @@ import Container from "react-bootstrap/Container";
 import { useSelector } from "react-redux";
 import { userDate } from "../userSlice";
 import { useNavigate } from "react-router-dom";
+import "./Home.scss"
 
 export const Home = () => {
   return (
-    <Container fluid className="text-center background-warning">
+    <Container id="Main" fluid className="text-center background-warning Container_Body">
       <h1>Home</h1>
       <p>
-        Bienvenido a mi interfaz de usuarios, dentro de no mucho se subiran
+        Bienvenido a mi portofolio, dentro de no mucho subiré
         todos mis proyectos deployados tanto en github como Vercel.
       </p>
       <p>

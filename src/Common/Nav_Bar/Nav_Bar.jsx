@@ -10,17 +10,10 @@ export const NavBar = () => {
   let token;
   return (
     <>
-      <Container fluid className="text-center design_navbar">
-        <Row className="d-flex justify-content-center align-items-center">
+      <Container id="NavBar" fluid className="text-center design_navbar">
+        <Row className="d-flex justify-content-around align-items-center row_navbar">
           <Col>
             <h1 className="color-black"><Link to="/">Home</Link></h1>
-          </Col>
-          <Col>
-            <Row>
-              <Col>
-                <h1></h1>
-              </Col>
-            </Row>
           </Col>
           <Col>
             <DropdownButton
