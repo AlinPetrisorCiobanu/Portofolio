@@ -7,23 +7,27 @@ body {
   height: 100vh;
   overflow: hidden;
 }
-#root{
-    height: 100vh;
+#root {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  #NavBar {
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #Main {
+    margin: 0px;
+    padding: 0px;
     width: 100vw;
-
-    #NavBar{
-        height: 6vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    #Main{
-      width: 100vw;
-      height: 88vh;
-      overflow: scroll;
-      background-color: antiquewhite;
-    }
-    #Footer{
-      height: 6vh;
-    }
+    height: 86vh;
+    overflow: scroll;
+    background-color: antiquewhite;
+  }
+  #Footer {
+    width: 100vw;
+    height: 8vh;
+    overflow: hidden;
+  }
 }
