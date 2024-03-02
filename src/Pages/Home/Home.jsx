@@ -17,13 +17,13 @@ export const Home = () => {
       </Row>
       <hr />
       <Row className="d-flex">  
-        <Col className="border_lateral">
+        <Col className="border_lateral text_design">
           <p>
             Bienvenido a mi portofolio, dentro de no mucho subiré todos mis
             proyectos deployados tanto en github como Vercel.
           </p>
         </Col>
-        <Col>
+        <Col className="text_design">
           <p>
             Y con el backend subido en la plataforma de Amazon Web Services a
             traves de una maquina virtual Ubuntu.
@@ -32,7 +32,7 @@ export const Home = () => {
       </Row>
       <hr />
       <Row>
-        <Col>
+        <Col className="text_design">
           <p>
             En la barra de navegación hay diferentes enlaces , al perfil de usuario , proyectos , una parte de contacto y un login personalizado para poder subir diferentes archivos sin tener la necesidad de abrir el codigo cada vez que se va incorporar un nuveo proyecto a la plantilla o para cambiar algunos detalles en el perfil de usuario.
           </p>

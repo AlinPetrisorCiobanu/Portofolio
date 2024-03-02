@@ -14,26 +14,20 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0px;
-    padding: 0px;
   }
   #Main {
     margin: 0px;
     padding: 0px;
     width: 100vw;
     height: 80vh;
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
     background-color: antiquewhite;
-    margin: 0px;
-    padding: 0px;
   }
   #Footer {
     width: 100vw;
     height: 20vh;
     background-color: rgb(120, 136, 255);
     overflow: hidden;
-    z-index: 10;
-    margin: 0px;
-    padding: 0px;
   }
 }
