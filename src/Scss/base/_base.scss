@@ -12,14 +12,14 @@ body {
   width: 100vw;
   overflow: hidden;
   #NavBar {
-    height: 6vh;
+    height: 8vh;
     display: flex;
     justify-content: center;
     align-items: center;
   }
   #Main {
     margin: 0px;
-    padding: 0px;
+    padding: 10px;
     width: 100vw;
     height: 86vh;
     overflow: scroll;
@@ -29,5 +29,6 @@ body {
     width: 100vw;
     height: 8vh;
     overflow: hidden;
+    z-index: 10;
   }
 }
