@@ -19,15 +19,22 @@ body {
     margin: 0px;
     padding: 0px;
     width: 100vw;
-    height: 80vh;
+    height: 86vh;
+    @media screen and (max-width : 500px ) {
+      height: 80vh;
+    }
     overflow-y: scroll;
     overflow-x: hidden;
     background-color: antiquewhite;
   }
   #Footer {
     width: 100vw;
-    height: 20vh;
-    background-color: rgb(120, 136, 255);
+    height: 8vh;
+    @media screen and (max-width : 500px ) {
+      height: 20vh;
+    }
+    color: aliceblue;
+    background-color: rgb(41, 46, 88);
     overflow: hidden;
   }
 }
