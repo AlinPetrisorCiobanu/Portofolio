@@ -8,7 +8,7 @@ export const Home = () => {
     <Container
       id="Main"
       fluid
-      className="text-center background-warning design_home"
+      className="text-center design_home"
     >
       <Row>
         <Col>
