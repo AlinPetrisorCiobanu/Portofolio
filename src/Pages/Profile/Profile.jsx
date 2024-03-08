@@ -9,7 +9,7 @@ export const Profile = () => {
     <Container
       id="Main"
       fluid
-      className="text-center d-flex justify-content-center design_home"
+      className="text-center design_home"
     ><Row>
     <Col className="espaciador_profile_top"></Col>
 </Row>
