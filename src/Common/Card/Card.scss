@@ -1,0 +1,26 @@
+.card_design{
+    background-color: aliceblue;
+    padding: 2vw;
+    border: 1px solid black;
+    border-radius: 12px;
+    @media screen and (max-width: 500px) {
+        padding: 10vw;
+        max-width: 90vw;
+        box-shadow: 14px 14px 20px 6px black;
+      }
+    
+    max-width: 60vw;
+    box-shadow: 14px 14px 20px 2px black;
+    p{
+        @media screen and (max-width: 500px) {
+            font-size: 1.15rem;
+          }
+        font-size: 1.4rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .row{
+        .col{
+            background-color: rgba(0, 0, 255, 0);
+        }
+    }
+}
