@@ -14,7 +14,7 @@ export const NavBar = () => {
             </a>
           </Col>
           <Col>
-            <Row>
+            <Row className="nav_bar_pc">
               <Col></Col>
               <Col>
                 <a>
@@ -35,6 +35,11 @@ export const NavBar = () => {
                 <a>
                   <p>cuatro</p>
                 </a>
+              </Col>
+            </Row>
+            <Row className="nav_bar_phone">
+              <Col>
+                <i className="fa-solid fa-bars"></i>
               </Col>
             </Row>
           </Col>

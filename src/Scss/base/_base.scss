@@ -11,6 +11,9 @@ body {
   #NavBar {
     width: 100vw;
     height: 4vh;
+    @media (max-width:768px){
+      height: 6vh;       
+  }
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,8 +34,8 @@ body {
   #Footer {
     width: 100vw;
     height: 8vh;
-    @media screen and (max-width : 500px ) {
-      height: 20vh;
+    @media screen and (max-width : 768px ) {
+      height: 15vh;
     }
     color: aliceblue;
     background-color: rgb(41, 46, 88);
