@@ -12,11 +12,8 @@ body {
     width: 100vw;
     height: 4vh;
     @media (max-width:768px){
-      height: 6vh;       
+      height: 12vh;       
   }
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: var(--background-color-nav);
   }
   #Main {

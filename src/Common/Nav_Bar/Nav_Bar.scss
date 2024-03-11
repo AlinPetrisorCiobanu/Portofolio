@@ -1,52 +1,67 @@
-.design_navbar{
-    background-color: var(--background-color-nav);
-    color: rgb(0, 102, 255);
-    font-size: 1.8rem;
-    p{
-        padding-top: 10px;
+.design_navbar {
+  background-color: var(--background-color-nav);
+  color: rgb(0, 102, 255);
+  font-size: 1.8rem;
+  flex-direction: column;
+  p {
+    padding-top: 10px;
+  }
+  a:hover {
+    cursor: pointer;
+    p {
+      color: aliceblue;
     }
-    a:hover{
+  }
+  .row_navbar {
+    width: 100vw;
+  }
+  .nav_bar_pc {
+    display: flex;
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+  .nav_bar_phone {
+    display: none;
+    @media (max-width: 768px) {
+      display: block;
+    }
+  }
+  .menu_event {
+    transition: all 2s;
+    .col {
+      .row {
+        height: 10vh;
+        background-color: var(--background-color-nav);
+      }
+      .row:hover {
         cursor: pointer;
-        p{
-            color: aliceblue;
+        p {
+          color: aliceblue;
         }
+      }
     }
-    .row_navbar{
-        width: 100vw;
-    }
-    .nav_bar_pc{
-        display: flex;
-        @media (max-width:768px){
-            display: none;
-        }
-    }
-    .nav_bar_phone{
-        display: none;
-        @media (max-width:768px){
-            display: block;
-        }
-    }
+  }
 }
-.design_dropDownButton{
-    
-    button{
-        background-color: var(--background-color-button-nav);
-        width: 10rem;
-        color: var(--nav-bar-foont-color);
-        @media (max-width:768px){
-            width: 6rem;       
-        }
+.design_dropDownButton {
+  button {
+    background-color: var(--background-color-button-nav);
+    width: 10rem;
+    color: var(--nav-bar-foont-color);
+    @media (max-width: 768px) {
+      width: 6rem;
     }
-    div{
-        text-align: center;
-        background-color: var(--background-color-dropdown-nav); 
-        min-width: auto;
-        width: 10rem;
-        @media (max-width:768px){
-            width: 6rem;       
-        }
+  }
+  div {
+    text-align: center;
+    background-color: var(--background-color-dropdown-nav);
+    min-width: auto;
+    width: 10rem;
+    @media (max-width: 768px) {
+      width: 6rem;
     }
-    a:hover{
-        background-color: var(--background-color-dropdown-nav);
-    }
+  }
+  a:hover {
+    background-color: var(--background-color-dropdown-nav);
+  }
 }

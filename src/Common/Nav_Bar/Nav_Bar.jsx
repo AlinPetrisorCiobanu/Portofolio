@@ -2,8 +2,22 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./Nav_Bar.scss";
+import { useState } from "react";
 
 export const NavBar = () => {
+  const [menu, setMenu] = useState(false);
+  const navBar = document.getElementById("NavBar");
+
+  const active_menu = () => {
+    if(menu) {
+      setMenu(false)
+      navBar.style.height = "12vh"
+    }else{
+      setMenu(true)
+      navBar.style.height = "42vh"
+    }
+  };
+
   return (
     <>
       <Container id="NavBar" fluid className="text-center design_navbar">
@@ -39,11 +53,37 @@ export const NavBar = () => {
             </Row>
             <Row className="nav_bar_phone">
               <Col>
-                <i className="fa-solid fa-bars"></i>
+                <i className="fa-solid fa-bars" onClick={active_menu}></i>
               </Col>
             </Row>
           </Col>
         </Row>
+        {menu && (
+          <Row className="menu_event">
+            <Col>
+              <Row className="first_row">
+                <a>
+                  <p>uno</p>
+                </a>
+              </Row>
+              <Row>
+                <a>
+                  <p>dos</p>
+                </a>
+              </Row>
+              <Row>
+                <a>
+                  <p>tres</p>
+                </a>
+              </Row>
+              <Row>
+                <a>
+                  <p>cuatro</p>
+                </a>
+              </Row>
+            </Col>
+          </Row>
+        )}
       </Container>
     </>
   );
