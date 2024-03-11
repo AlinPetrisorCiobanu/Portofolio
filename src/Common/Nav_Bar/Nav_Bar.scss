@@ -1,10 +1,18 @@
 .design_navbar{
     background-color: var(--background-color-nav);
+    color: rgb(0, 102, 255);
+    font-size: 1.8rem;
+    p{
+        padding-top: 10px;
+    }
+    a:hover{
+        cursor: pointer;
+        p{
+            color: aliceblue;
+        }
+    }
     .row_navbar{
         width: 100vw;
-    }
-    a{
-        color: var(--nav-bar-foont-color);
     }
 }
 .design_dropDownButton{

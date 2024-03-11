@@ -10,16 +10,17 @@ body {
 #root {
   #NavBar {
     width: 100vw;
-    height: 6vh;
+    height: 4vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: var(--background-color-nav);
   }
   #Main {
     margin: 0px;
     padding: 0px;
     width: 100vw;
-    height: 86vh;
+    height: 88vh;
     @media screen and (max-width : 500px ) {
       height: 80vh;
     }
