@@ -9,13 +9,7 @@ export const NavBar = () => {
   const navBar = document.getElementById("NavBar");
 
   const active_menu = () => {
-    if(menu) {
-      setMenu(false)
-      navBar.style.height = "12vh"
-    }else{
-      setMenu(true)
-      navBar.style.height = "42vh"
-    }
+    menu ? setMenu(false) : setMenu(true)
   };
 
   return (
