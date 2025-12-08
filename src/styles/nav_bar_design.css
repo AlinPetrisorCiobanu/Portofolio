@@ -13,29 +13,41 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    width: 40vw;
+    width: 10vw;
 }
 .container_nav_bar .nav_bar_hamburguer .hamburguer{
    display: none;
 }
 
 .container_nav_bar .nav_bar_menu {
-    background-color: rgb(133, 158, 158);
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-around;
-    width: 40vw;
+    width: 60vw;
+    max-width: 500px;
     height: 5vh;
+    margin-right: 10vw;
+    border-bottom: 3px solid black;
+    border-radius: 12px;
 }
 
 .container_nav_bar .nav_bar_menu .option {
-    background-color: antiquewhite;
     min-width: 100px;
-    border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
     font-size: 1.2em;
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 20px;
+    margin-bottom: 12px;
+   transition: all 0.5s;
+   padding-left: 0.1em;
+   padding-right: 0.1em;
+   
+}
+
+.container_nav_bar .nav_bar_menu .option:hover {
+    border-bottom: 2px solid rgba(0, 0, 255, 0.637);
 }

@@ -12,6 +12,7 @@
         justify-content: center;
         align-items: center;
         width: 100vw;
+         z-index: 2;
     }
 
     .container_nav_bar .nav_bar_hamburguer .hamburguer {
@@ -19,7 +20,7 @@
         font-size: 2em;
         padding-top: 0.2em;
         padding-bottom: 0.4em;
-        z-index: 20;
+        z-index: 2;
     }
 
     .container_nav_bar .nav_bar_menu {
@@ -29,8 +30,9 @@
         height: 5vh;
         position: relative;
         top: -50vh;
-        transition: all 0.5s;
+        transition: all 0.7s;
         z-index: 1;
+        margin: 0;
     }
 
     .container_nav_bar .opened{
@@ -42,10 +44,12 @@
         background-color: antiquewhite;
         min-width: 100px;
         border: 1px solid black;
+        border-radius: 0px;
         display: flex;
         justify-content: center;
         align-items: center;
         font-size: 1.2em;
+        margin: 0;
         padding-top: 0.4em;
         padding-bottom: 0.4em;
     }
