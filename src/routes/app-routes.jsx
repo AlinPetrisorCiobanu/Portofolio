@@ -1,5 +1,9 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import Proyects from "../pages/Proyectos/Proyectos";
 import Home from "../pages/home";
+import Curriculum from "../pages/Curriculum/Curriculum";
+import Contact from "../pages/Contacto/Contacto";
 
 const App_routes = () => {
     return (
@@ -8,8 +12,9 @@ const App_routes = () => {
             <Routes>
 
                 <Route path="/" element={<Home />} />
-                {/* <Route path="/dash" element={<Dashboard />} />
-                <Route path="*" element={<Not_found />} /> */}
+                <Route path="/projects" element={<Proyects />} />
+                <Route path="/curriculum" element={<Curriculum />} />
+                <Route path="/contacto" element={<Contact />} />
             </Routes>
         </BrowserRouter>
     )

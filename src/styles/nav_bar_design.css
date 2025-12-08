@@ -1,0 +1,39 @@
+.container_nav_bar {
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(74, 90, 90);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   align-items: center;
+}
+
+.container_nav_bar .nav_bar_first_option {
+    background-color: rgb(128, 133, 133);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 40vw;
+}
+
+.container_nav_bar .nav_bar_menu {
+    background-color: rgb(133, 158, 158);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 40vw;
+    height: 5vh;
+}
+
+.container_nav_bar .nav_bar_menu .option {
+    background-color: antiquewhite;
+    min-width: 100px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.2em;
+}
