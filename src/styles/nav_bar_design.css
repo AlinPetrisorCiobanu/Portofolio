@@ -1,7 +1,6 @@
 .container_nav_bar {
     width: 100vw;
     height: 10vh;
-    background-color: rgb(74, 90, 90);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -9,12 +8,15 @@
    align-items: center;
 }
 
-.container_nav_bar .nav_bar_first_option {
+.container_nav_bar .nav_bar_hamburguer {
     background-color: rgb(128, 133, 133);
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     width: 40vw;
+}
+.container_nav_bar .nav_bar_hamburguer .hamburguer{
+   display: none;
 }
 
 .container_nav_bar .nav_bar_menu {
