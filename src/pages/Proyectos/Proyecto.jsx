@@ -7,6 +7,9 @@ const Proyects = () => {
             <main>
                 <h1>Proyectos</h1>
             </main>
+            <Proyecto name="Proyecto uno, con detalles aparte" 
+            detail="Esto se pasa como detalle complementario" 
+            link="https://github.com/AlinPetrisorCiobanu/Henesis" />
         </div>
     )
 }

@@ -1,7 +1,5 @@
 import {useNavigate} from "react-router-dom"
 import { useState } from "react";
-import "../assets/styles/nav_bar_design.css"
-import "../assets/styles/nav_bar_media_querry.css"
 
 const Nav_Bar = () => {
     const navigate = useNavigate();

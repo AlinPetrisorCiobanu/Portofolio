@@ -1,0 +1,25 @@
+main.main_home{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.9em;
+    font-size: 1.2em;
+    padding-top: 1em;
+}
+main.main_home section.encabezado_home{
+    text-align: center;
+    width: 90%;
+}
+main.main_home section.encabezado_home span.nombre{
+    text-decoration: underline;
+}
+main.main_home section.descripcion_home p{
+    display: block;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 1em;
+}

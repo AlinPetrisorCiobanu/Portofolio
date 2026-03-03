@@ -1,5 +1,3 @@
-import {useNavigate} from "react-router-dom"
-import "../assets/styles/container_proyecto.css"
 
 const Proyecto = (parameter) => {
  const  go_to = (link) => {
