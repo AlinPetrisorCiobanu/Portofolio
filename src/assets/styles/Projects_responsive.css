@@ -1,0 +1,14 @@
+@media (min-width:800px) {
+    .projects_container {
+        grid-template-columns: repeat(3, minmax(280px, 1fr));
+    }
+
+    .box_project {
+        width: 100%;
+        cursor: pointer;
+        transition: transform 0.3s ease;
+    }
+    .box_project:hover {
+        transform: translateY(-15px);
+    }
+}

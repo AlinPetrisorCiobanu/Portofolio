@@ -1,0 +1,54 @@
+.projects_container {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5em;
+    padding: 2em 0em;
+    justify-items: center;
+}
+
+.box_project {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    max-width: 350px; 
+    background-color: bisque;
+    border: 3px solid black;
+    border-radius: 20px 40px 10px 10px;
+    padding: 1em;
+    text-align: center;
+    overflow: hidden;
+}
+
+.box_project img {
+    width: 120%;
+    height: auto;
+    border-radius: 15px;
+    display: block;
+    object-fit: cover;
+}
+.main_project{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 1em;
+
+}
+.project_images{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+.project_images img{
+    max-width: 30vw;
+    max-height: 30vh;
+    margin: 1em;
+}
