@@ -3,7 +3,7 @@ import "./../assets/styles/container.css"
 
 const Home = () => {
     return (
-        <div className="container">
+        <div className="Container">
             <Nav_Bar />
             <main>
                 <h1>Mi nuevo proiecto de portofolio</h1>

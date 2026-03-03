@@ -1,16 +1,8 @@
-.container{
-    width: 100vw;
-    height: 100vh;
-    background-color: rgb(165, 165, 165);
-    overflow: auto;
+div.Container {
+   width: 100%;
+   height: auto;
 }
 
 main{
-    width: 100vw;
-    height: auto;
-    min-height: 90vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    
 }
