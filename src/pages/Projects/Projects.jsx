@@ -1,9 +1,9 @@
 import Nav_Bar from "../../components/Nav_Bar"
 import Project_box from "../../components/Project_box";
-const modules = import.meta.glob("./projects_files/*/data.js", { eager: true });
-const projects = Object.values(modules).map(mod => mod.default);
 
 const Projects = () => {
+    const modules = import.meta.glob("./Projects_files/*/data.js", { eager: true });
+    const projects = Object.values(modules).map(mod => mod.default);
     return (
         <div className="Container">
             <Nav_Bar />
