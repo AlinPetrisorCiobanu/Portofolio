@@ -1,7 +1,5 @@
 import Nav_Bar from "../components/Nav_Bar";
-import "./../styles/container.css"
-import "./../styles/nav_bar_design.css"
-import "./../styles/nav_bar_media_querry.css"
+import "./../assets/styles/container.css"
 
 const Home = () => {
     return (
