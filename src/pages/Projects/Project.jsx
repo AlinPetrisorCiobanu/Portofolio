@@ -2,9 +2,12 @@ import Nav_Bar from "../../components/Nav_Bar"
 import { useParams } from "react-router-dom";
 
 const Project = () => {
+    
     const {id} = useParams();
-    const modules = import.meta.glob("./projects_files/*/data.js", { eager: true });
+
+    const modules = import.meta.glob("./Projects_files/*/data.js", { eager: true });
     const projects = Object.values(modules).map(mod => mod.default);
+
     const project = projects.find(p => p.id == id);
 
     if (!project) return <h2>Proyecto no encontrado</h2>;
