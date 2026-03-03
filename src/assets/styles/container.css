@@ -1,8 +1,10 @@
 div.Container {
    width: 100%;
-   height: auto;
-}
-
-main{
-    
+   height: 100vh;
+   box-sizing: border-box;
+   background-image: url(../img/bg-paper.jpg);
+   background-position: middle;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
 }

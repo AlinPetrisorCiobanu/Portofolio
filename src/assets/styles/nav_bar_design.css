@@ -13,17 +13,19 @@ nav.navbar div.hamburguer{
     font-size: 1.5em;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: end;
     background-color: var(--color-nav);
     z-index: 1;
     border-bottom: 1px solid black;
+    box-sizing: content-box;
+    padding-right: 1em;
 }
 nav.navbar ul.menu{
     position: relative;
     top:-50vh;
     max-height: 0;
     background-color: var(--color-navBackground);
-    transition: all 1s linear;
+    transition: all 0.7s linear;
 }
 nav.navbar ul.opened {
     top: 0;

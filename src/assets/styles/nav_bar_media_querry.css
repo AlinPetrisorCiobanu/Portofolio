@@ -1,4 +1,37 @@
-@media (min-width:768px) {
-    
+@media (min-width:800px) {
+    nav.navbar{
+    flex-direction: row;
+    height: 70px;
+}
+nav.navbar div.hamburguer{
+    display: none;
+}
+nav.navbar ul.menu{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: nowrap;
+    position: static;
+    top:0;
+    max-height: 100vh;
+    background-color: var(--color-navBackground);
+    border-bottom: 3px solid black;
+}
+nav.navbar ul.menu li{
+    width: 150px;
+    height: 30px;
+    margin-left: 1.7em;
+    border-top: 0;
+    border-radius: 20px;
+    border-bottom: 2px solid black;
+    cursor: pointer;
+    font-size: 0.7em;
+}
+nav.navbar ul.menu li:hover{
+    border-bottom: 2px solid blue;
+    background-color: var(--color-navBackground);
+    transition: all 0.2s linear;
+}
   
 }
