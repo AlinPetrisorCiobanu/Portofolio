@@ -1,5 +1,5 @@
-import img_01 from "./A.png";
-import img_02 from "./consola.png";
+import img_01 from "./consola.png";
+import img_02 from "./A.png";
 import img_03 from "./info.png";
 import img_04 from "./option1.png";
 import img_05 from "./option2.png";
