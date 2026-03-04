@@ -1,42 +1,64 @@
-nav.navbar{
+/* Nav general */
+.navbar {
     width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    font-size: 1.5em;
     position: sticky;
     top: 0;
+    z-index: 100;
+    backdrop-filter: blur(6px);
+    background-color: rgba(255, 255, 255, 0.85);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
 }
-nav.navbar div.hamburguer{
-    height: 10vh;
-    font-size: 1.5em;
+
+/* Contenedor interno */
+.nav_inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 70px;
+    padding: 0 2rem;
+
     display: flex;
     align-items: center;
-    justify-content: end;
-    background-color: var(--color-nav);
-    z-index: 1;
-    border-bottom: 1px solid black;
-    box-sizing: content-box;
-    padding-right: 1em;
+    justify-content: space-between;
 }
-nav.navbar ul.menu{
+
+/* Logo */
+.logo {
+    font-weight: 700;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+/* Hamburguesa */
+.hamburguer {
+    display: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+    z-index: 1100;
+}
+
+/* Menú desktop */
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.menu li {
+    cursor: pointer;
     position: relative;
-    top:-50vh;
-    max-height: 0;
-    background-color: var(--color-navBackground);
-    transition: all 0.7s linear;
 }
-nav.navbar ul.opened {
-    top: 0;
-    max-height: 100vh;
+
+.menu li::after {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background: black;
+    transition: width 0.3s ease;
 }
-nav.navbar ul.menu li{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 12vh;
-    background-color: var(--color-nav);
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+
+.menu li:hover::after {
+    width: 100%;
 }
