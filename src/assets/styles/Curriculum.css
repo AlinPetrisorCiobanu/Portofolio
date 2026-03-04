@@ -1,0 +1,134 @@
+#curriculum-final {
+  background: #ffffff;
+  color: #0D1B2A;
+  padding: 2rem;
+  font-family: 'Lato', sans-serif;
+  transition: all 0.3s ease;
+}
+
+#curriculum-final.dark {
+  background: #0D1B2A;
+  color: #F5F5F5;
+}
+
+.cv-toggle-print {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.toggle-btn, .print-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.toggle-btn {
+  background: #FCA311;
+  color: #0D1B2A;
+}
+
+.print-btn {
+  background: #1B263B;
+  color: #ffffff;
+}
+
+.toggle-btn:hover {
+  opacity: 0.85;
+}
+
+.print-btn:hover {
+  opacity: 0.85;
+}
+
+.cv-header {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.cv-photo {
+  width: 120px;
+  border-radius: 50%;
+  border: 3px solid #0D1B2A;
+}
+
+.cv-intro h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.cv-intro h2 {
+  margin: 0.2rem 0 0.5rem 0;
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+.cv-links a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  margin-bottom: 0.3rem;
+}
+
+.cv-links a:hover {
+  color: #FCA311;
+}
+
+.cv-columns {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.left-column, .right-column {
+  flex: 1;
+  min-width: 300px;
+}
+
+h3 {
+  border-bottom: 2px solid #0D1B2A;
+  padding-bottom: 0.3rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.8rem;
+}
+
+#curriculum-final.dark h3 {
+  border-color: #FCA311;
+}
+
+.project-card {
+  background: #f9f9f9;
+  border: 1px solid #1B263B;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+#curriculum-final.dark .project-card {
+  background: #1B263B;
+  border-color: #FCA311;
+}
+
+.project-card h4 {
+  color: #1B263B;
+  margin-bottom: 0.3rem;
+}
+
+#curriculum-final.dark .project-card h4 {
+  color: #FCA311;
+}
+
+.project-card ul {
+  list-style-type: disc;
+  margin-left: 1rem;
+}

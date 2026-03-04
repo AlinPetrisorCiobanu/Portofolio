@@ -10,6 +10,7 @@ import "./assets/styles/Home.css"
 import "./assets/styles/Projects.css"
 import "./assets/styles/Projects_responsive.css"
 import "./assets/styles/Contacto.css"
+import "./assets/styles/Curriculum.css"
 
 
 createRoot(document.getElementById('root')).render(

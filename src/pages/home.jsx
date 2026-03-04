@@ -31,17 +31,17 @@ const Home = () => {
                     <h3>Stack y herramientas que utilizo</h3>
                     <div className="stack_icons">
                         <div className="stack_item">HTML</div>
-                        <div className="stack_item">CSS / SASS</div>
-                        <div className="stack_item">JavaScript / TypeScript</div>
+                        <div className="stack_item">CSS </div>
+                        <div className="stack_item">JavaScript</div>
+                        <div className="stack_item">TypeScript</div>
                         <div className="stack_item">React</div>
                         <div className="stack_item">Node.js</div>
                         <div className="stack_item">Nodemon</div>
-                        <div className="stack_item">PHP / Laravel</div>
-                        <div className="stack_item">MongoDB / SQL</div>
+                        <div className="stack_item">PHP</div>
+                        <div className="stack_item">Laravel</div>
+                        <div className="stack_item">MongoDB</div>
+                        <div className="stack_item">SQL</div>
                         <div className="stack_item">GitHub</div>
-                        <div className="stack_item">Vercel</div>
-                        <div className="stack_item">Postman</div>
-                        <div className="stack_item">Godaddy</div>
                         <div className="stack_item">AWS</div>
                     </div>
                 </section>
