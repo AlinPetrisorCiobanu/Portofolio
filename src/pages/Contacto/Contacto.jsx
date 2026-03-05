@@ -25,7 +25,7 @@ const Contact = () => {
         {
             name: "LinkedIn",
             value: "",
-            link: "www.linkedin.com/in/alin-petrisor-ciobanu-979995180",
+            link: "https://www.linkedin.com/in/alin-petrisor-ciobanu-979995180",
             icon: <FaLinkedin />
         },
         {
