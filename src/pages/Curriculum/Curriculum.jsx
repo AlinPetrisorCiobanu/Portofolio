@@ -2,7 +2,6 @@ import { useRef, useState } from "react";
 import Nav_Bar from "../../components/Nav_Bar"
 import { FaLinkedin, FaGithub, FaMoon, FaSun, FaFilePdf } from "react-icons/fa";
 import { motion } from "framer-motion";
-import { useReactToPrint } from "react-to-print";
 import profile_img from "../../assets/img/AlinCb.jpg"
 
 const Curriculum = () => {
@@ -39,10 +38,6 @@ const Curriculum = () => {
     const [darkMode, setDarkMode] = useState(false);
     const cvRef = useRef();
 
-    const handlePrint = useReactToPrint({
-        content: () => cvRef.current,
-        documentTitle: "AlinPetrisorCiobanuCV",
-    });
     return (
         <div className="Container">
             <Nav_Bar />
@@ -66,14 +61,13 @@ const Curriculum = () => {
                         <div className="cv-intro">
                             <h1>Alin Petrisor Ciobanu</h1>
                             <h2>Full Stack Developer</h2>
-                            <h3>alinpetrisorciobanu@outlook.es</h3>
+                            
                             <div className="cv-links">
                                 <a href="https://www.linkedin.com/in/alin-petrisor-ciobanu-979995180" target="_blank" rel="noopener noreferrer"><FaLinkedin /> linkedin.com/alinpetrisor</a>
                                 <a href="https://github.com/AlinPetrisorCiobanu" target="_blank" rel="noopener noreferrer"><FaGithub /> GitHub</a>
                             </div>
                         </div>
                     </motion.div>
-
                     <div className="cv-columns">
                         <motion.div className="left-column" initial={{ x: -50, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ duration: 0.8 }}>
                             <h3>Stack Tecnológico</h3>
