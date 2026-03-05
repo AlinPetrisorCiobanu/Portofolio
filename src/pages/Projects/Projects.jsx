@@ -9,12 +9,15 @@ const Projects = () => {
             <Nav_Bar />
             <main className="main_proyectos">
                 <div className="projects_container">
-                {projects.map(project => (
-                    <Project_box
-                    key={project.id}
-                    {...project}
-                    />
-                ))}
+                    {projects
+                        .sort((a, b) => b.id - a.id)
+                        .map(project => (
+                            <Project_box
+                            key={project.id}
+                            {...project}
+                            />
+                        ))
+                    }
                 </div>
             </main>
         </div>

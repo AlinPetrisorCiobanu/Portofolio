@@ -66,6 +66,7 @@ const Curriculum = () => {
                         <div className="cv-intro">
                             <h1>Alin Petrisor Ciobanu</h1>
                             <h2>Full Stack Developer</h2>
+                            <h3>alinpetrisorciobanu@outlook.es</h3>
                             <div className="cv-links">
                                 <a href="https://www.linkedin.com/in/alin-petrisor-ciobanu-979995180" target="_blank" rel="noopener noreferrer"><FaLinkedin /> linkedin.com/alinpetrisor</a>
                                 <a href="https://github.com/AlinPetrisorCiobanu" target="_blank" rel="noopener noreferrer"><FaGithub /> GitHub</a>
