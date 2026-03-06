@@ -8,23 +8,11 @@ const Home = () => {
             <main className="main_home">
 
                 <section className="hero_home">
-                    <h1>
-                        Arquitectura y desarrollo
-                        <br />
-                        de aplicaciones web completas
-                    </h1>
-
+                    <h1>Fullstack Developer</h1>
                     <h2>
-                        Soy <span className="nombre">Alin Petrisor Ciobanu</span>,
-                        Fullstack Developer especializado en estructuras limpias,
-                        modularidad y escalabilidad.
+                        Modularidad,
+                        Escalabilidad y Optimización
                     </h2>
-
-                    <p>
-                        Construyo sistemas bien organizados, con separación clara
-                        de responsabilidades, APIs estructuradas y frontend
-                        optimizado en React.
-                    </p>
                 </section>
 
                 <section className="stack_home">
