@@ -48,7 +48,7 @@ const Curriculum = () => {
                     </button>
                     <a
                         href="/AlinPetrisorCiobanuCV.pdf"
-                        download="AlinPetrisorCiobanu_CV.pdf"
+                        download="AlinPetrisorCiobanuCV.pdf"
                         className="print-btn"
                     >
                         <FaFilePdf /> Descargar PDF
