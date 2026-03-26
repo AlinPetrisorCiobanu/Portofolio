@@ -1,6 +1,9 @@
 import img_01 from "./home_henesis.png";
-import img_02 from "./home_henesis_mediaquery.png";
-import img_03 from "./menu_henesis.png";
+import img_02 from "./services_henesis.png";
+import img_03 from "./responsive_henesis.png";
+import img_04 from "./menu_henesis.png";
+import img_05 from "./services_henesis.png";
+import img_06 from "./contacto_henesis.png";
 
 
 export default {
@@ -11,5 +14,5 @@ export default {
     link_github : "https://github.com/AlinPetrisorCiobanu/Henesis",
     link_deploymen : "https://henesis.es",
     estado : "En desarollo",
-    images: [img_01,img_02,img_03]
+    images: [img_01,img_02,img_03,img_04,img_05,img_06]
 };
