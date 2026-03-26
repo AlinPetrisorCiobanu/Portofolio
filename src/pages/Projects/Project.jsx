@@ -19,8 +19,8 @@ const Project = () => {
                 <h1>{project.name} : {project.id}</h1>
                 <h2>{project.detail}</h2>
                 <h3>{project.description}</h3>
-                <a href={project.github}>Repositorio en github</a>
-                <a href={project.link_deployment}>Proyecto deployado</a>
+                <a href={project.link_github}>Repositorio en github</a>
+                <a href={project.link_deploymen}>Proyecto deployado</a>
                 <h3>{project.estado}</h3>
                 <div className="project_images">
                     
